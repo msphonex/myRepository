@@ -18,8 +18,8 @@ while True:
     if 'sshlog' in line:
         line_list = line.split()
         if len(line_list) == 7:
-            f_t.write(line_list[6]+'\n')
+            f_t.write(line_list[6]+ ' ' + '' + '\n')
         else:
-            f_t.write(line_list[6]+' '+line_list[7]+'\n')
+            f_t.write(line_list[6]+ ' ' + line_list[7] + '\n')
 f_s.close
 f_t.close
