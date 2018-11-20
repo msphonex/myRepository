@@ -1,10 +1,5 @@
-#!/bin/python
+#!/bin/python3
 
-a = [1,2,3]
-b = [4,5,6]
-c = [7,8,9]
-h = [a, b, c]
-for d,e,f in h:
-    print(d)
-    print(e)
-    print(f)
+s="1 root root"
+slist = s.split()
+print (slist[1]+' '+slist[2]+'\n')
